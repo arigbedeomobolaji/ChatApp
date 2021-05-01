@@ -1,0 +1,27 @@
+{
+  "name": "05_chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js -e js,html,env,json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "http-errors": "^1.8.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "bad-words": "^3.0.4",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "mongoose": "^5.11.9",
+    "socket.io": "^3.0.4"
+  }
+}
